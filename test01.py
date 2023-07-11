@@ -33,7 +33,7 @@ def show_box(box, ax):
     ax.add_patch(plt.Rectangle((x0, y0), w, h, edgecolor='green', facecolor=(0, 0, 0, 0), lw=2))
 
 
-def main():
+def Sample_seg():
     image = cv2.imread(
         r'D:\WorkingRange\NIO\ExteInspect\001-ExteInspect_Segment_engine\ropes\data\image\2.png')  # 路径不能有中文
     print(image.shape)
@@ -96,4 +96,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    Sample_seg()
